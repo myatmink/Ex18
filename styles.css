@@ -1,0 +1,32 @@
+/* Page box: red border with yellow outline, no background fill */
+.page-box {
+    box-shadow:4px 4px 12px gray;
+    padding:  5px;
+                margin: 20px;
+                }
+
+                /* Heading 1: Bold, large, underline + pink shadow */
+                h1 {
+        
+                        font-weight: bold;
+                            text-decoration: overline;
+                                text-shadow: 2px 2px 4px pink;
+                                }
+
+                                /* Heading 2: Italic, black inline box with yellow border + shadow */
+                                h2 {
+        
+                                        font-style: italic;
+                                            border: 2px solid black;
+                                            
+                                                    outline-style: outset;
+                                                    outline-color: yellow;
+                                                                text-shadow: 2px 2px 4px gray;
+                                                                }
+
+                                                                /* Heading 3: Smaller, right-aligned, underline + black shadow */
+                                                                h3 {
+                                                                    font-size: 24px;
+                                                                        text-align: right;
+                                                                            text-decoration: underline;
+                                                                                }
